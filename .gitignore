@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+.env.production
+.env.local
+
+# Scan artifacts (don't commit generated reports)
+sast_run_*/
+~/sast-workspace/
+
+# OS
+.DS_Store
+__MACOSX/
+
+# IDE
+.idea/
+.vscode/
