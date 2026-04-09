@@ -1,7 +1,7 @@
 # SAST Multi-Agent Security Scanner
 
 **CSEC 594 — Security Capstone | DePaul University**
-**By Pranav Rattehalli Mahesh (2215997)**
+**By Pranav Rattehalli **
 
 An AI-assisted Static Application Security Testing (SAST) system with a hosted web dashboard that triggers a local multi-agent scanning pipeline and delivers a downloadable PDF/Markdown report.
 
@@ -301,7 +301,3 @@ CONTEXT_WINDOW_LINES = 25         # Lines of context passed to Agent 2
 | Extra | SSRF, Open Redirect, Weak Randomness, Race Conditions, eval/exec injection |
 
 ---
-
-## License
-
-For academic/research use only. Do not deploy the benchmark vulnerable code (`vulnerable_benchmark.py`) in any real environment.
